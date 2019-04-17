@@ -24,15 +24,16 @@
     head () {
       return {
         script: [
-          // { src: '/js/modernizr-2.8.3-respond-1.4.2.min.js', body: false, defer: true },
-          // { src: '/js/jquery.js', body: false, defer: true },
-          // { src: '/js/jquery-migrate.min.js', body: false, defer: true },
-          // { src: '/js/materialize-src/js/bin/materialize.min.js', body: false, defer: true },
-          // { src: '/components/slick/slick.min.js', body: false, defer: true },
-          // { src: '/components/skrollr/skrollr.min.js', body: false, defer: true },
-          // { src: '/components/swipebox/lib/ios-orientationchange-fix.js', body: false, defer: true },
-          // { src: '/components/swipebox/src/js/jquery.swipebox.min.js', body: false, defer: true },
-          // { src: '/components/masonry/masonry.min.js', body: false, defer: true },
+          { src: '/js/modernizr-2.8.3-respond-1.4.2.min.js', body: false, defer: true },
+          { src: '/js/jquery.js', body: false, defer: true },
+          { src: '/js/jquery-migrate.min.js', body: false, defer: true },
+          { src: '/js/materialize-src/js/bin/materialize.min.js', body: false, defer: true },
+          { src: '/components/slick/slick.min.js', body: false, defer: true },
+          { src: '/components/skrollr/skrollr.min.js', body: false, defer: true },
+          { src: '/components/swipebox/lib/ios-orientationchange-fix.js', body: false, defer: true },
+          { src: '/components/swipebox/src/js/jquery.swipebox.min.js', body: false, defer: true },
+          { src: '/components/masonry/masonry.min.js', body: false, defer: true },
+          { src: '/js/qt-main.js', body: false, defer: true }
         ],
         link: [
           { rel: 'stylesheet', href: '/components/slick/slick.css' },
